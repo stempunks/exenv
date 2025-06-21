@@ -1,0 +1,29 @@
+{
+    "name": "CO2-Sensor-SCD40",
+    "version": "0.2.1",
+    "description": "Calliope mini CO2-Sensor",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "main.blocks",
+        "main.ts",
+        "SCD40.ts",
+        "_locales/de/co2-sensor-scd40-jsdoc-strings.json",
+        "_locales/de/co2-sensor-scd40-strings.json",
+        "_locales/uk/co2-sensor-scd40-jsdoc-strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "targetVersions": {
+        "target": "4.0.29",
+        "targetId": "calliopemini"
+    },
+    "supportedTargets": [
+        "calliopemini"
+    ],
+    "preferredEditor": "tsprj"
+}
